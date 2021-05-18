@@ -10,10 +10,8 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest();
-
         return view('posts', [
-            'posts' => $this->getPosts(),
+            'posts' => Post::latest()->filter(request(['search']))->get(),
             'categories' => Category::all()
         ]);
     }
@@ -27,6 +25,6 @@ class PostController extends Controller
 
     public function getPosts()
     {
-        return Post::latest()->filter()->get();
+        return Post::latest()->filter(request('search'))->get();
     }
 }
