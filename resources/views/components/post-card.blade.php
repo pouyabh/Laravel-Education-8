@@ -11,7 +11,7 @@
         <div class="mt-6 flex flex-col justify-between flex-1">
             <header>
                 <div class="space-x-2">
-                   <x-category-button :category="$post->category" />
+                    <x-category-button :category="$post->category"/>
                 </div>
 
                 <div class="mt-4">
@@ -36,9 +36,11 @@
                     <img src="/images/lary-avatar.svg" alt="Lary avatar">
                     <div class="ml-3">
                         <h5 class="font-bold">
-                            <a href="/authors/{{$post->author->username}}">{{ $post->author->name }}</a>
+                            <a href="/?author={{ $post->author->username }}">
+                                {{ $post->author->name }}
+                            </a>
                         </h5>
-                        <h6>Mascot at Laracasts</h6>
+
                     </div>
                 </div>
 
