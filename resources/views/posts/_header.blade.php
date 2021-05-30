@@ -39,8 +39,7 @@
                        name="search"
                        placeholder="Find something"
                        class="bg-transparent placeholder-black font-semibold text-sm"
-                       value="{{ request('search') }}"
-                >
+                       value="{{ request('search') }}">
             </form>
         </div>
     </div>
