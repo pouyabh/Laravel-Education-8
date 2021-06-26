@@ -7,7 +7,9 @@
         </button>
     </x-slot>
 
-    <x-dropdown-item href="/" :active="request()->routeIs('home')">All</x-dropdown-item>
+    <x-dropdown-item href="/?{{ http_build_query(request()->except('category', 'page')) }}"
+                     :active="request()->routeIs('home')">All
+    </x-dropdown-item>
 
     @foreach ($categories as $category)
         <x-dropdown-item
