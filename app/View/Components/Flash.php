@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Flash extends Component
+class flash extends Component
 {
     /**
      * Create a new component instance.
