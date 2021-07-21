@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="756d0b45-5a14-4b60-89f5-b8b959d6d185" name="Default Changelist" comment="Add Memmber to audiences with api hard code">
+    <list default="true" id="756d0b45-5a14-4b60-89f5-b8b959d6d185" name="Default Changelist" comment="Add Memmber to audiences with api and Cleaned Up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,7 @@
       <updated>1626630462039</updated>
       <workItem from="1626630473135" duration="1116000" />
       <workItem from="1626665587741" duration="27000" />
-      <workItem from="1626851391704" duration="6063000" />
+      <workItem from="1626851391704" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary="Add Memmber to audiences with api hard code">
       <created>1626853957080</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626853957080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Memmber to audiences with api and Cleaned Up">
+      <created>1626859915587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626859915587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Memmber to audiences with api hard code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Memmber to audiences with api hard code" />
+    <MESSAGE value="Add Memmber to audiences with api and Cleaned Up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Memmber to audiences with api and Cleaned Up" />
   </component>
 </project>
