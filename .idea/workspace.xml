@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="756d0b45-5a14-4b60-89f5-b8b959d6d185" name="Default Changelist" comment="Add Memmber to audiences with api and Cleaned Up">
+    <list default="true" id="756d0b45-5a14-4b60-89f5-b8b959d6d185" name="Default Changelist" comment="Cleaning UP With method That i Hate that :)))))">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Newsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_08_180818_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_08_180818_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_19_072628_create_comments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustration-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustration-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustration-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustration-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustration-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-avatar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-head.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-newsletter-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-newsletter-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mailbox-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/post-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/resources/views/components/post-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/post-featured-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/resources/views/components/post-featured-card.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +178,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -169,7 +198,9 @@
       <updated>1626630462039</updated>
       <workItem from="1626630473135" duration="1116000" />
       <workItem from="1626665587741" duration="27000" />
-      <workItem from="1626851391704" duration="9121000" />
+      <workItem from="1626851391704" duration="9491000" />
+      <workItem from="1627096919786" duration="230000" />
+      <workItem from="1627381803202" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="Add Memmber to audiences with api hard code">
       <created>1626853957080</created>
@@ -185,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626859915587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cleaning UP With method That i Hate that :)))))">
+      <created>1626863413982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626863413982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +239,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Memmber to audiences with api hard code" />
     <MESSAGE value="Add Memmber to audiences with api and Cleaned Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Memmber to audiences with api and Cleaned Up" />
+    <MESSAGE value="Cleaning UP With method That i Hate that :)))))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning UP With method That i Hate that :)))))" />
   </component>
 </project>
