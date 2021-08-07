@@ -1,9 +1,448 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad17bba0-3c3e-4e66-b5e2-9e0371ff74f4" name="Default Changelist" comment="S69 Completed">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Laravel Education.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laravel Education.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostCommentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ConvertKitNewsletter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MailchimpNewsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Newsletter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/CategoryDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/CategoryDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/Flash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-avatar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/lary-avatar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-head.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/lary-head.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lary-newsletter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/lary-newsletter-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mailbox-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/mailbox-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_posts-header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/category-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/category-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/dropdown-item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/dropdown-item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/flash.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/flash.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/field.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/field.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/input.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/input.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/label.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/label.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form/textarea.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/textarea.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/icon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/icon.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/setting.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/setting.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/_add-comment-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_add-comment-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/register/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/semantic-ui.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-tailwind.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-tailwind.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/pagination/tailwind.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/tailwind.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/public/thumbnails/BDd1uDhNSoRHbWbPCoO2HCmbUys6kPjv5l0wGVxA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/public/thumbnails/Qs6yoB5fGL7zy0v3Yb1QphL8mHPqcnPCy8bLPeJP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/CommentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/PostCommentsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/PostController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Controllers/SessionsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Models/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Models/Comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Models/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/app/View/Components/CategoryDropdown.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/factories/CategoryFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/factories/CommentFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/factories/PostFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2021_04_08_180818_create_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2021_04_16_154312_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/migrations/2021_06_18_143226_create_comments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/illustration-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/illustration-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/illustration-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/illustration-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/illustration-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/lary-avatar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/lary-head.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/lary-newsletter-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/lary-newsletter-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/images/mailbox-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/category-button.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/category-dropdown.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/dropdown-item.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/dropdown.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/flash.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/icon.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/panel.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/post-card.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/post-comment.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/post-featured-card.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/posts-grid.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/components/submit-button.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/posts/_add-comment-form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/posts/_header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/posts/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/posts/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/register/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/sessions/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/vendor/pagination/simple-tailwind.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resources/views/vendor/pagination/tailwind.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/clockwork/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/webpack.mix.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/itsgoingd/clockwork" />
+      <path value="$PROJECT_DIR$/vendor/mailchimp/marketing" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/spatie/yaml-front-matter" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1wJYCKczmpF35lppj4Ph4JyIRKL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad17bba0-3c3e-4e66-b5e2-9e0371ff74f4" name="Default Changelist" comment="" />
+      <created>1628178037149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628178037149</updated>
+      <workItem from="1628178045356" duration="1706000" />
+      <workItem from="1628314668414" duration="3846000" />
+    </task>
+    <task id="LOCAL-00001" summary="S69 Completed">
+      <created>1628179732133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628179732133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="S69 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="S69 Completed" />
   </component>
 </project>
